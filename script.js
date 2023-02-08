@@ -19,7 +19,6 @@ function events() {
     hipo = target.r - Math.sqrt((mouse.x - target.x) * (mouse.x - target.x)  + (mouse.y - target.y) * (mouse.y - target.y));
     strHipo = hipo.toString();
     strHipo = strHipo.indexOf(".") > 0 ? strHipo.slice(0, strHipo.indexOf(".")) : hipo;
-
     window.addEventListener("click", (e) => {
         mouse = {
             x: e.clientX,
