@@ -51,13 +51,6 @@ function draw () {
         ctx.fill();
         ctx.stroke();
     };
-    ctx.strokeStyle="blue";
-    ctx.fillStyle="blue";
-    ctx.beginPath();
-    ctx.moveTo(target.x, target.y);
-    ctx.lineTo(mouse.x, mouse.y);
-    ctx.fill();
-    ctx.stroke();
     ctx.fillStyle="white";
     ctx.textAlign="center";
     ctx.font="30px Comic Sans MS";
